@@ -95,4 +95,6 @@ botaoCancelar.onclick = () => {
 tarefas.forEach(tarefa => {
     const elementoTarefa = criarElementoTarefa(tarefa)
     ulTarefas.append(elementoTarefa)
-});
+})
+
+document.addEventListener('FocoFinalizado')
